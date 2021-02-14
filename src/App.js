@@ -11,6 +11,7 @@ import { InputText } from 'primereact/inputtext';
 
 import './App.scss';
 import UserService from './services/userService';
+import Menu from './components/menu/Menu';
 
 export default function App() {
 
@@ -40,6 +41,7 @@ export default function App() {
 
   return (
     <div className="main-container">
+    <Menu />
       <DataTable className="table" value={users} globalFilter={globalFilter} header={renderHeader()} >
         <Column field="name" header="Nome"></Column>
         <Column field="username" header="Username"></Column>
