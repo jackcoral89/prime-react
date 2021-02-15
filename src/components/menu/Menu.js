@@ -1,8 +1,3 @@
-import 'primeicons/primeicons.css';
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.css';
-import 'primeflex/primeflex.css';
-
 import { Menubar } from 'primereact/menubar';
 
 import './Menu.scss';
@@ -52,8 +47,6 @@ export default function Menu() {
       }
     }
   ];
-
-
 
   const start = <a href="/"><img alt="logo" src={logo} height="40" className="p-mr-2" /></a>;
 
